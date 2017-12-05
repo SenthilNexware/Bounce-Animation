@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-kapt'
+
 
 
 android {
@@ -9,7 +8,7 @@ android {
     compileSdkVersion 26
 
     defaultConfig {
-        applicationId "hackro.tutorials.com.salesfacebook"
+        applicationId "hackro.tutorials.com.bounceWidget"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
@@ -33,18 +32,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
-    compile "com.google.dagger:dagger:2.11"
-    compile "com.google.dagger:dagger-android:2.11"
-    compile "com.google.dagger:dagger-android-support:2.11"
-    kapt "com.google.dagger:dagger-compiler:2.11"
-    kapt "com.google.dagger:dagger-android-processor:2.11"
-
-    // Facebook Login only
-    compile 'com.facebook.android:facebook-login:[4,5)'
-    compile 'com.facebook.android:facebook-core:[4,5)'
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-
-// https://mvnrepository.com/artifact/com.google.code.gson/gson
-    compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
 
 }

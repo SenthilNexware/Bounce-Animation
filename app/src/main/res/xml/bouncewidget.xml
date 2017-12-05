@@ -1,0 +1,7 @@
+<hackro.tutorials.com.bounceWidget.widget.BounceWidget
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:adjustViewBounds="true"
+    android:scaleType="fitCenter"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
