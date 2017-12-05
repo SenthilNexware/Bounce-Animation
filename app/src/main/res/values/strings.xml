@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Compra Venta en Facebook</string>
+    
+    <string name="facebook_app_id">143442289761245</string>
+    <string name="fb_login_protocol_scheme">fb143442289761245</string>
+
+</resources>
